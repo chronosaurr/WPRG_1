@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Other Contextual Selectors</title>
+  <style>
+    p > em {font-weight: bold;}
+    h1 + p {font-style: italic;}
+    section ~ h1 {color: red;}
+  </style>
+</head>
+<body>
+<p>This is a <em>default text</em></p>
+<em>This is another default text</em>
+<hr>
+<h1>This is a heading</h1>
+<p>This is a default text</p>
+<hr>
+<h2>Another heading</h2>
+<p>This is a default text</p>
+<hr>
+<section>
+  <h1>This is a heading in section</h1>
+  <h2>This is another heading in section</h2>
+</section>
+<hr>
+<h1>This is a heading in not section</h1>
+<h2>This is another heading in not section</h2>
+</body>
+</html>
