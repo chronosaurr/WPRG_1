@@ -1,0 +1,17 @@
+body{
+    background-color: #9ec19a;
+}
+h1{
+    color: lightgray;
+}
+.redbox{
+    background-color: #8c74aa;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.bluebox{
+    background-color: #578a5a;
+    height: 200px;
+    width: 200px;
+}
